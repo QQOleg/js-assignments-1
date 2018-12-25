@@ -32,7 +32,7 @@ And the last idea is to inure trainees to work using unit test and feel uncomfor
 ### How to setup travis-ci
 * Open [https://travis-ci.org/](https://travis-ci.org/) and sign in with your github account.
 * Activate your forked repo **js-assignments**.
-* Edit local README.md file and update all links (just replace all occurrences of `'it-shark-pro'` with your account name).
+* Edit local README.md file and update all links (just replace all occurrences of `'QQOleg'` with your account name).
 * Commit and push updated README.md to github:
 ```bash
   git add README.md
