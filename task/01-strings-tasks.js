@@ -127,7 +127,7 @@ function repeatString(value, count) {
  *   'ABABAB','BA' => 'ABAB'
  */
 function removeFirstOccurrences(str, value)  {
-  return str.replace((value),'' );
+  return str.replace((value), '' );
 }
 
 /**
@@ -142,7 +142,7 @@ function removeFirstOccurrences(str, value)  {
  *   '<a>' => 'a'
  */
 function unbracketTag(str) {
-  return str.substring(1,str.length-1);
+  return str.substring(1, str.length-1);
 }
 
 
@@ -200,8 +200,12 @@ function extractEmails(str) {
  *
  */
 function getRectangleString(width, height) {
-  return parseInt(height,width);
+  const up = `┌${"─".repeat(width - 2)}┐\n`;
+  const middle = `│${" ".repeat(width - 2)}│\n`;
+  const down =`└${"─".repeat(width - 2)}┘\n`;
+  return `${up}${middle.repeat(height - 2)}${down}`;
 }
+
 
 
 /**
