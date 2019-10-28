@@ -200,7 +200,7 @@ function extractEmails(str) {
  *
  */
 function getRectangleString(width, height) {
-  throw new Error('Not implemented');
+  return parseInt(height,width);
 }
 
 
